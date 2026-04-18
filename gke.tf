@@ -7,7 +7,7 @@ resource "google_container_cluster" "primary1" {
 
   node_config {
     machine_type = "e2-micro"      
-    disk_size_gb = 30             
+    disk_size_gb = 31             
     disk_type    = "pd-ssd"
     
     oauth_scopes = [
